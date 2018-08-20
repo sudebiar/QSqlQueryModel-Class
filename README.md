@@ -1,1 +1,4 @@
 # QSqlQueryModel-Class
+
+
+From Git
