@@ -1,3 +1,1 @@
 # QSqlQueryModel-Class
-
-First push
