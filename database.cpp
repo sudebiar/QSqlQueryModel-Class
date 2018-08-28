@@ -15,7 +15,7 @@ DataBase::~DataBase(){
 bool DataBase::connectToDataBase()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("Poem.db");
+    db.setDatabaseName("/home/behruz/Desktop/Temp/QSqlQueryModeTableView/Poem.db");
     if (!db.open()) {
         QMessageBox::critical(nullptr, QObject::tr("Cannot open database"),
             QObject::tr("Unable to establish a database connection.\n"

@@ -1,5 +1,11 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>Poem.db</file>
+        <file>TblView.qml</file>
+        <file>LstShow.qml</file>
+        <file>drawer@4x.png</file>
+        <file>back@4x.png</file>
+        <file>PoemPage.qml</file>
     </qresource>
 </RCC>

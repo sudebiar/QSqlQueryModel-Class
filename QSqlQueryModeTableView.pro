@@ -5,9 +5,12 @@ CONFIG += c++11
 
 SOURCES += main.cpp \
     database.cpp \
-    model.cpp
+    model.cpp \
+    mvariables.cpp
 
 RESOURCES += qml.qrc
+
+
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
@@ -34,4 +37,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     database.h \ 
     database.h \
-    model.h
+    model.h \
+    mvariables.h
+
+FORMS +=

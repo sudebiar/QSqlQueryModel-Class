@@ -29,3 +29,4 @@ QHash<int, QByteArray> Model::roleNames() const {
     roles[GrpRole] = "Grp";
     return roles;
 }
+
