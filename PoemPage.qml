@@ -9,14 +9,17 @@ Rectangle {
         ListView {
             id: list_view2
             Layout.alignment: Qt.AlignCenter
+            anchors.topMargin: 10
             anchors.fill: parent
             clip: true
-            anchors.topMargin: 0
             delegate: Text{
+                color: "#8f510b"
                 anchors.centerIn: parent
+
                 text:Poem
-                font.family: "Mj_Beirut"
+                font.family: "2  Davat"
                 font.bold: true
+                horizontalAlignment: Text.AlignHCenter
                 font.pointSize: 25
             }
 

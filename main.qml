@@ -83,8 +83,7 @@ ApplicationWindow {
                                         id: name
                                         text: model.title
                                         anchors.centerIn: parent
-                                        font.family: "Mj_Beirut"
-                                        font.bold: true
+                                        font.family: "A Yasamin"
                                         font.pointSize: 25
                                         color: "#875E13"
                                     }

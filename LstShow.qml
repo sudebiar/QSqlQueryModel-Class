@@ -22,8 +22,9 @@ Rectangle {
                 border.color: "silver"
                 border.width: 5
                 Text {
+                    color: "#af6804"
                     anchors.centerIn: parent
-                    text:Title
+                    text:Title 
                     font.family: "Mj_Beirut"
                     font.bold: true
                     font.pointSize: 25
