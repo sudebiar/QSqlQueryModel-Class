@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Poem.db</file>
+        <file>android/Poem.db</file>
+    </qresource>
+</RCC>

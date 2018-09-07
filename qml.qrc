@@ -7,5 +7,11 @@
         <file>drawer@4x.png</file>
         <file>back@4x.png</file>
         <file>PoemPage.qml</file>
+        <file>33-512.png</file>
+        <file>btnMenu.png</file>
+        <file>btnMenu128.png</file>
+        <file>btnMenu80.png</file>
+        <file>Color80.png</file>
+        <file>salek.jpg</file>
     </qresource>
 </RCC>

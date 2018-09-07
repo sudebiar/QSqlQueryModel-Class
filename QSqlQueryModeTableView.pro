@@ -8,9 +8,23 @@ SOURCES += main.cpp \
     model.cpp \
     mvariables.cpp
 
-RESOURCES += qml.qrc
+RESOURCES += qml.qrc \
+    assets.qrc
 
+#ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android
 
+# deployment.files += Poem.db
+# deployment.path = /assets
+# INSTALLS += deployment
+
+ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android
+
+android
+{
+my_files.path = /assets
+my_files.files = $$PWD/android/*
+INSTALLS += my_files
+}
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
@@ -41,3 +55,14 @@ HEADERS += \
     mvariables.h
 
 FORMS +=
+
+DISTFILES += \
+    android/AndroidManifest.xml \
+    android/gradle/wrapper/gradle-wrapper.jar \
+    android/gradlew \
+    android/res/values/libs.xml \
+    android/build.gradle \
+    android/gradle/wrapper/gradle-wrapper.properties \
+    android/gradlew.bat
+
+
